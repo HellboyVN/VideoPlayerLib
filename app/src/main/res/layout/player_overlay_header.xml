@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="56dp"
+    android:layout_gravity="top"
+    android:background="@drawable/header_background"
+    android:minHeight="@dimen/abc_action_bar_default_height_material"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/button_back"
+        android:layout_width="@dimen/abc_action_bar_default_height_material"
+        android:layout_height="@dimen/abc_action_bar_default_height_material"
+        android:layout_gravity="center"
+        android:background="@drawable/button_selector"
+        android:scaleType="center"
+        android:src="@drawable/ic_up" />
+
+    <TextView
+        android:id="@+id/video_filename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1.0"
+        android:gravity="center"
+        android:shadowColor="@android:color/black"
+        android:shadowDx="1.0"
+        android:shadowDy="1.0"
+        android:shadowRadius="1.0"
+        android:text="filename.mp4"
+        android:textColor="@color/gray100"
+        android:textSize="16.0sp" />
+
+    <ImageView
+        android:id="@+id/button_snap"
+        android:layout_width="@dimen/abc_action_bar_default_height_material"
+        android:layout_height="@dimen/abc_action_bar_default_height_material"
+        android:layout_gravity="center"
+        android:background="@drawable/button_selector"
+        android:scaleType="center"
+        android:src="@drawable/ic_photo_white_24dp" />
+
+    <ImageView
+        android:id="@+id/button_filter"
+        android:layout_width="@dimen/abc_action_bar_default_height_material"
+        android:layout_height="@dimen/abc_action_bar_default_height_material"
+        android:layout_gravity="center"
+        android:background="@drawable/button_selector"
+        android:scaleType="center"
+        android:src="@drawable/ic_format_paint_white_24dp" />
+</LinearLayout>
